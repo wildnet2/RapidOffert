@@ -50,7 +50,7 @@
 ////////////////////////////////////////////////////////////////////////////
 
       function validate($chatId){
-        if($chatId === 37192021 || $chatId === 36323662){
+        if($chatId === 0 || $chatId === 1){
           return true;
         }else{
           return false;
